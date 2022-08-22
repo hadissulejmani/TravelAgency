@@ -18,8 +18,9 @@ namespace OnlineShop.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult GetRoutes()
         {
+            Console.WriteLine("test");
             return View();
         }
 
